@@ -117,8 +117,13 @@
               "devServerTarget": "clip-cotizador:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "clip-cotizador"
 }
